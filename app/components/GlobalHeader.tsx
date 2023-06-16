@@ -13,14 +13,17 @@ const navigationList: NavigationItem[] = [
 
 export const GlobalHeader = () => {
   return (
-    <header className="flex justify-between px-12 py-10 text-lg tracking-widest">
+    <header className="text-md text-md flex justify-between px-6 py-10 tracking-widest sm:text-lg md:px-12">
       <div>
         <Link href="/">mkan0141.dev</Link>
       </div>
       <nav>
         <ul className="flex">
           {navigationList.map((navigation) => (
-            <li key={navigation.href} className="[&:not(:first-child)]:ml-8">
+            <li
+              key={navigation.href}
+              className="[&:not(:first-child)]:ml-4 md:[&:not(:first-child)]:ml-8"
+            >
               <Link href={navigation.href}>
                 <HoverText>{navigation.label}</HoverText>
               </Link>
