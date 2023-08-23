@@ -2,8 +2,8 @@ lockfileVersion: 5.4
 
 specifiers:
   '@types/node': 20.3.0
-  '@types/react': 18.2.11
-  '@types/react-dom': 18.2.4
+  '@types/react': 18.2.21
+  '@types/react-dom': 18.2.7
   autoprefixer: 10.4.14
   eslint: 8.42.0
   eslint-config-next: 13.4.5
@@ -23,8 +23,8 @@ specifiers:
 
 dependencies:
   '@types/node': 20.3.0
-  '@types/react': 18.2.11
-  '@types/react-dom': 18.2.4
+  '@types/react': 18.2.21
+  '@types/react-dom': 18.2.7
   autoprefixer: 10.4.14_postcss@8.4.24
   eslint: 8.42.0
   eslint-config-next: 13.4.5_tizxnkcvjrb4cldxgwq5h3lj5u
@@ -298,14 +298,14 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: false
 
-  /@types/react-dom/18.2.4:
-    resolution: {integrity: sha512-G2mHoTMTL4yoydITgOGwWdWMVd8sNgyEP85xVmMKAPUBwQWm9wBPQUmvbeF4V3WBY1P7mmL4BkjQ0SqUpf1snw==}
+  /@types/react-dom/18.2.7:
+    resolution: {integrity: sha512-GRaAEriuT4zp9N4p1i8BDBYmEyfo+xQ3yHjJU4eiK5NDa1RmUZG+unZABUTK4/Ox/M+GaHwb6Ow8rUITrtjszA==}
     dependencies:
-      '@types/react': 18.2.11
+      '@types/react': 18.2.21
     dev: false
 
-  /@types/react/18.2.11:
-    resolution: {integrity: sha512-+hsJr9hmwyDecSMQAmX7drgbDpyE+EgSF6t7+5QEBAn1tQK7kl1vWZ4iRf6SjQ8lk7dyEULxUmZOIpN0W5baZA==}
+  /@types/react/18.2.21:
+    resolution: {integrity: sha512-neFKG/sBAwGxHgXiIxnbm3/AAVQ/cMRS93hvBpg8xYRbeQSPVABp9U2bRnPf0iI4+Ucdv3plSxKK+3CW2ENJxA==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
